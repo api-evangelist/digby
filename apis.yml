@@ -1,22 +1,68 @@
 aid: digby
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/digby.png
 name: Digby
-description: Digby is a company surfaced as a portfolio company of battery-ventures and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Digby was an Austin, Texas software-as-a-service provider of mobile commerce
+  and mobile engagement solutions for large retailers, operating under parent company
+  30 Second Software Inc. Its platform — including the Localpoint location-based marketing
+  product — delivered branded mobile web experiences and native shopping apps, connecting
+  digital engagement to physical stores for customers such as Cabela''s, Kohl''s, Catalina
+  Marketing and Hasbro. Digby raised venture funding from Battery Ventures, S3 Ventures,
+  Daylight Ventures, Relay Ventures and the BlackBerry Partners Fund. The company was
+  acquired by fellow Austin mobile company Phunware in May 2014 (along with its Movaya
+  subsidiary in Seattle and Chengdu), terms undisclosed, and the Localpoint technology
+  was folded into Phunware''s product line. Digby no longer operates as an independent
+  company: digby.com no longer resolves to a live site (last Internet Archive capture
+  February 2015) and there is no current developer portal, documentation, API, SDK
+  or other public API surface to catalog.'
 url: https://raw.githubusercontent.com/api-evangelist/digby/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - battery-ventures
+x-status: defunct
+x-status-reason: acquired
+x-acquired-by: phunware
+x-acquired-date: '2014-05'
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: defunct-no-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Mobile
+- Mobile Commerce
+- Retail
+- Location
+- Marketing
+- Acquired
+- Defunct
 apis: []
+common:
+- type: Archive
+  name: Internet Archive capture of digby.com (2015-02-22)
+  url: http://web.archive.org/web/20150222074515/http://digby.com/
+- type: Acquirer
+  name: Phunware (acquired Digby, May 2014)
+  url: https://www.phunware.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
