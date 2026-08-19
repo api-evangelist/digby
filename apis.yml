@@ -36,7 +36,7 @@ x-acquired-by: phunware
 x-acquired-date: '2014-05'
 x-tier: stub
 x-tier-reason: defunct-no-api-surface
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
